@@ -1,0 +1,27 @@
+body {
+    background-color: #f4c242;
+}
+img {
+    width: 15%;
+}  
+h1 {
+  text-align: center;
+}
+.container {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.left-side {
+  float: left;
+  padding: 10px;
+}
+.right-side {
+  padding: 10px;
+}
+.bottom-center {
+  padding: 10px;
+  align-items: center;
+}
