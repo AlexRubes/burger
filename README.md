@@ -11,4 +11,4 @@ The Eat-Da-Burger application is created using MySQL, Node, Express, Handlebars 
 ## Data
 The existing burger data and the user's new burger data all live within a MySQL database: *burgers_db*. The *burgers* table within the database is populated and updated by the user's actions. 
 
-Link to Heroku deployed application: 
+Link to Heroku deployed application: https://aqueous-sierra-21334.herokuapp.com/
