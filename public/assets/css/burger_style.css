@@ -4,24 +4,57 @@ body {
 img {
     width: 15%;
 }  
-h1 {
+h1, h2 {
+  text-align: center;
+}
+.header {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
 }
 .container {
-  align-content: center;
   display: flex;
   flex-direction: column;
   padding: 10px;
 }
-
+.sub-container {
+  display: flex;  
+  flex-flow: row wrap;
+  justify-content: center;
+}
 .left-side {
   float: left;
-  padding: 10px;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  width: 45%;
 }
 .right-side {
-  padding: 10px;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  width: 45%;
 }
 .bottom-center {
+  padding: 20px;
+}
+.css-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding: 10px;
-  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .left-side {
+      width: 100%;
+  }
+  .right-side {
+    width: 100%;
+  }
+  .sub-container {
+    flex-direction: column;
+    flex-flow: nowrap;
+  }
 }
